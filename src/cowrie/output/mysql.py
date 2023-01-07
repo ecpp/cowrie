@@ -73,7 +73,7 @@ class Output(cowrie.core.output.Output):
                 port=port,
                 cp_min=1,
                 cp_max=1,
-                charset="utf8mb4",
+                charset="utf8",
                 cp_reconnect=True,
                 use_unicode=True,
             )
